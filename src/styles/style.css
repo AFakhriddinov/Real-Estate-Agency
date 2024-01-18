@@ -1,3 +1,21 @@
 #nav {
   background-color: rgb(2, 3, 129);
+  color: white;
+}
+
+#mid-container {
+  margin-top: 30px;
+}
+
+.row {
+  margin: 20px;
+}
+
+.col {
+  height: 300px;
+  margin: 20px;
+  border: thin solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
