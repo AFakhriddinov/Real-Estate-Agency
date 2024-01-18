@@ -10,15 +10,15 @@ import Col from 'react-bootstrap/Col';
 export default function HomePage() {
   return (
     <div>
-      <Navbar id="nav" expand="lg" fixed="top">
-        <Container className="navbar-fixed-top">
+      <Navbar expand="lg" fixed="top">
+        <Container>
           <Navbar.Brand href="#home">
             <Image src={logo} alt="Laing" width="125" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto navbar-dark">
+            <Nav className="me-auto">
               <NavDropdown title="BUY" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
                   Recent sales
