@@ -17,8 +17,11 @@
 .col {
   height: 300px;
   margin: 20px;
-  border: thin solid grey;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  width: 450px;
 }
