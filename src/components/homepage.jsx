@@ -25,7 +25,7 @@ export default function HomePage() {
         ></iframe>
       </div>
       <Container id="mid-container">
-        <Row>
+        <Row className="content-row">
           <Col>
             <Card className="text-center">
               <Card.Img variant="top" src={buy} />
@@ -44,7 +44,7 @@ export default function HomePage() {
             </Card>
           </Col>
         </Row>
-        <Row>
+        <Row className="content-row">
           <Col>
             <Card className="text-center">
               <Card.Img variant="top" src={about} />

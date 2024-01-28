@@ -10,13 +10,12 @@
   margin-top: 30px;
 }
 
-.row {
+.content-row {
   margin: 20px;
 }
 
 .col {
-  height: 300px;
-  margin: 20px;
+  /* margin: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,4 +23,18 @@
 
 .card {
   width: 450px;
+}
+
+.footer {
+  background-color: rgb(6, 6, 141);
+  color: white;
+  padding: 20px;
+}
+
+.footer-row {
+  margin-left: 60px;
+}
+
+.copyright {
+  border: thin solid black;
 }
