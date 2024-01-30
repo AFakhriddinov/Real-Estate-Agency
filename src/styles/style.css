@@ -47,3 +47,13 @@
 .team-card {
   width: 250px;
 }
+
+#aboutus-img {
+  width: 1340;
+}
+
+.aboutus-p {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
