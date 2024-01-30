@@ -20,6 +20,12 @@ export default function Footer() {
         <Col xs lg="1">
           Contact us
         </Col>
+        <Col xs lg="1">
+          Facebook
+        </Col>
+        <Col xs lg="1">
+          Instagram
+        </Col>
         <Col>
           <Image src={logo} alt="Roger" width="100" />
         </Col>

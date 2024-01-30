@@ -38,3 +38,12 @@
 .copyright {
   border: thin solid black;
 }
+
+#recent-sales-div,
+#team-div {
+  margin-top: 100px;
+}
+
+.team-card {
+  width: 250px;
+}

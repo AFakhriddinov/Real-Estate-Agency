@@ -7,6 +7,7 @@ import Team from './components/team';
 import Navigation from './components/navbar';
 import Footer from './components/footer';
 import Layout from './components/layout';
+import RecentSales from './components/recentSales';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
+          <Route path="recentSales" element={<RecentSales />} />
           <Route path="team" element={<Team />} />
         </Route>
       </Routes>

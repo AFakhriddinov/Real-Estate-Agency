@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import logo from './images/logo.png';
-import { Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
@@ -18,19 +17,16 @@ export default function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <NavDropdown title="BUY" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/recentSales">
                 Recent sales
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/currentSales">
                 Current sales
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/team">
-              OUR TEAM
-            </Nav.Link>
+            <Nav.Link href="/team">OUR TEAM</Nav.Link>
             <Nav.Link href="/about">ABOUT US</Nav.Link>
             <Nav.Link href="/contact">CONTACT US</Nav.Link>
-            <Nav.Link href="#link">SEARCH</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

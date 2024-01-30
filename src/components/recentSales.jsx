@@ -2,28 +2,31 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import logo from './images/logo.png';
+import CanteburySale from './images/cantebury sale.jpg';
+import BlacktownSale from './images/blacktown sale.jpg';
+import BlacktownSale2 from './images/blacktown sale2.jpg';
+import WentworthvilleSale from './images/wentworthville sale.jpg';
+import WentworthvilleSale2 from './images/wentworthville sale2.jpg';
 
-export default function Team() {
+function RecentSales() {
   return (
-    <div id="team-div">
-      <h1 className="text-center">Our team</h1>
+    <div id="recent-sales-div">
+      <h1 className="text-center">Recent sales</h1>
 
-      <Container id="team-container">
+      <Container id="mid-container">
         <Row className="content-row">
           <Col>
-            <Card className="text-center team-card">
-              <Card.Img variant="top" src={logo} />
+            <Card className="text-center">
+              <Card.Img variant="top" src={CanteburySale} />
               <Card.Body>
-                <Card.Title>Roger Property Estate</Card.Title>
-                <Card.Text>Managing director</Card.Text>
-                <Card.Text>0431400087</Card.Text>
-                <Card.Text>rogerpropertyestate@gmail.com</Card.Text>
+                <Card.Title>Cantebury</Card.Title>
+                <Card.Text>37/10-12 Broughton Street</Card.Text>
+                <Card.Link href="/buy">View</Card.Link>
               </Card.Body>
             </Card>
           </Col>
-          {/* <Col>
-            <Card className="text-center team-card">
+          <Col>
+            <Card className="text-center">
               <Card.Img variant="top" src={BlacktownSale} />
               <Card.Body>
                 <Card.Title>Blacktown</Card.Title>
@@ -31,11 +34,11 @@ export default function Team() {
                 <Card.Link href="/team">View</Card.Link>
               </Card.Body>
             </Card>
-          </Col> */}
+          </Col>
         </Row>
-        {/* <Row className="content-row">
+        <Row className="content-row">
           <Col>
-            <Card className="text-center team-card">
+            <Card className="text-center">
               <Card.Img variant="top" src={WentworthvilleSale} />
               <Card.Body>
                 <Card.Title>Wentworthville</Card.Title>
@@ -45,7 +48,7 @@ export default function Team() {
             </Card>
           </Col>
           <Col>
-            <Card className="text-center team-card">
+            <Card className="text-center">
               <Card.Img variant="top" src={WentworthvilleSale2} />
               <Card.Body>
                 <Card.Title>Wentworthville</Card.Title>
@@ -57,7 +60,7 @@ export default function Team() {
         </Row>
         <Row>
           <Col>
-            <Card className="text-center team-card">
+            <Card className="text-center">
               <Card.Img variant="top" src={BlacktownSale2} />
               <Card.Body>
                 <Card.Title>Blacktown</Card.Title>
@@ -66,8 +69,10 @@ export default function Team() {
               </Card.Body>
             </Card>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </div>
   );
 }
+
+export default RecentSales;
