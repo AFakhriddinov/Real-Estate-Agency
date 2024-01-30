@@ -3,7 +3,7 @@ import aboutUs from './images/about.jpg';
 
 export default function AboutUs() {
   return (
-    <div id="aboutus-div">
+    <div id="aboutus-div" fluid>
       <Image id="aboutus-img" fluid src={aboutUs} alt="About us" width="1340" />
       <p className="aboutus-p">
         <b>Roger Property Estate</b> is one of the leading Real Estate companies
