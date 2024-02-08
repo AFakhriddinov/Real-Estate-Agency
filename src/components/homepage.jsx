@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigation from './navbar';
 import Card from 'react-bootstrap/Card';
-import buy from './images/buy.jpg';
+import buy from './images/Buy2.jpg';
 import team from './images/team.jpeg';
 import about from './images/about.jpg';
 import contact from './images/contact.avif';
@@ -27,39 +27,43 @@ export default function HomePage() {
       <Container id="mid-container">
         <Row className="content-row">
           <Col>
-            <Card className="text-center">
-              <Card.Img variant="top" src={buy} />
-              <Card.Body>
-                <Card.Link href="/buy">BUY</Card.Link>
-              </Card.Body>
-            </Card>
+            <a className="mid-a" href="/buy">
+              <Card.Body
+                style={{ backgroundImage: `url(${buy}` }}
+                className="card-body"
+              ></Card.Body>
+              <span>BUY</span>
+            </a>
           </Col>
 
           <Col>
-            <Card className="text-center">
-              <Card.Img variant="top" src={team} />
-              <Card.Body>
-                <Card.Link href="/team">OUR TEAM</Card.Link>
-              </Card.Body>
-            </Card>
+            <a className="mid-a" href="/team">
+              <Card.Body
+                style={{ backgroundImage: `url(${team}` }}
+                className="card-body"
+              ></Card.Body>
+              <span>TEAM</span>
+            </a>
           </Col>
         </Row>
-        <Row className="content-row">
+        <Row className="content-row2">
           <Col>
-            <Card className="text-center">
-              <Card.Img variant="top" src={about} />
-              <Card.Body>
-                <Card.Link href="/team">ABOUT US</Card.Link>
-              </Card.Body>
-            </Card>
+            <a className="mid-a" href="/about">
+              <Card.Body
+                style={{ backgroundImage: `url(${about}` }}
+                className="card-body"
+              ></Card.Body>
+              <span>ABOUT US</span>
+            </a>
           </Col>
           <Col>
-            <Card className="text-center">
-              <Card.Img variant="top" src={contact} />
-              <Card.Body>
-                <Card.Link href="/contact">CONTACT US</Card.Link>
-              </Card.Body>
-            </Card>
+            <a className="mid-a" href="/contact">
+              <Card.Body
+                style={{ backgroundImage: `url(${contact}` }}
+                className="card-body"
+              ></Card.Body>
+              <span>CONTACT US</span>
+            </a>
           </Col>
         </Row>
       </Container>
