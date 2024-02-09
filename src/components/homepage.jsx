@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Navigation from './navbar';
 import Card from 'react-bootstrap/Card';
 import buy from './images/Buy2.jpg';
-import team from './images/team.jpeg';
-import about from './images/about.jpg';
-import contact from './images/contact.avif';
+import team from './images/team2.jpg';
+import about from './images/about2.jpg';
+import contact from './images/contact2.jpg';
 
 export default function HomePage() {
   return (
@@ -29,7 +29,9 @@ export default function HomePage() {
           <Col>
             <a className="mid-a" href="/buy">
               <Card.Body
-                style={{ backgroundImage: `url(${buy}` }}
+                style={{
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${buy}`,
+                }}
                 className="card-body"
               ></Card.Body>
               <span>BUY</span>
@@ -39,7 +41,9 @@ export default function HomePage() {
           <Col>
             <a className="mid-a" href="/team">
               <Card.Body
-                style={{ backgroundImage: `url(${team}` }}
+                style={{
+                  backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${team}`,
+                }}
                 className="card-body"
               ></Card.Body>
               <span>TEAM</span>
@@ -50,7 +54,9 @@ export default function HomePage() {
           <Col>
             <a className="mid-a" href="/about">
               <Card.Body
-                style={{ backgroundImage: `url(${about}` }}
+                style={{
+                  backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${about}`,
+                }}
                 className="card-body"
               ></Card.Body>
               <span>ABOUT US</span>
@@ -59,7 +65,9 @@ export default function HomePage() {
           <Col>
             <a className="mid-a" href="/contact">
               <Card.Body
-                style={{ backgroundImage: `url(${contact}` }}
+                style={{
+                  backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${contact}`,
+                }}
                 className="card-body"
               ></Card.Body>
               <span>CONTACT US</span>
