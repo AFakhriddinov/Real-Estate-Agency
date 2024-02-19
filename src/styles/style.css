@@ -19,7 +19,7 @@
   padding-top: 350px;
 }
 
-.col {
+.home-col {
   margin: 20px;
 }
 
@@ -28,7 +28,7 @@
   text-decoration: none;
 }
 
-.card-body {
+.home-body {
   z-index: 3;
   position: absolute;
   width: 400px;
@@ -40,7 +40,7 @@
   transition: all 1s;
 }
 
-.card-body:hover {
+.home-body:hover {
   transform: scale(1.1);
 }
 
@@ -69,13 +69,121 @@ span {
   border: thin solid black;
 }
 
-#recent-sales-div,
+#recent-sales-div {
+  margin-top: 100px;
+  width: 85%;
+}
+
+.recentSales-row {
+  padding-bottom: 485px;
+}
+
+.recentSales-col {
+  justify-content: center;
+}
+
+.recentSales-h1 {
+  font-family: Times New Roman;
+  padding: 30px;
+}
+
 #team-div {
   margin-top: 100px;
 }
 
-.team-card {
-  width: 250px;
+.sold-icon {
+  display: flex;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 10;
+}
+
+.square-shape {
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 45px;
+  position: relative;
+}
+
+.sold-text {
+  margin: 0;
+  position: absolute;
+  top: 24%;
+  left: 24%;
+}
+
+.triangle-shape {
+  margin-left: -40px;
+}
+
+.triangle-shape-edgeUp {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 23px solid blue;
+}
+
+.triangle-shape-edgeDown {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 22px solid blue;
+}
+
+.recentSales-col {
+  position: relative;
+}
+
+.recentSales-subcol {
+  position: absolute;
+}
+
+.recentSales-img {
+  width: 100%;
+  height: 270px;
+}
+
+.property-location {
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 100%;
+  background-color: rgb(2, 3, 129);
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.sale-icons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facebook-icon {
+  fill: green !important;
+  width: 10px;
+}
+
+.font {
+  border-left: thin solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.property-price {
+  display: flex;
+}
+
+.element-left {
+  width: 76%;
+}
+
+.element-right {
+  flex-grow: 1;
 }
 
 #aboutus-img {

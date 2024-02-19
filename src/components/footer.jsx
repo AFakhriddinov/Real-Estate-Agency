@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import logo from './images/logo.png';
 import Image from 'react-bootstrap/Image';
+import { FaFacebook, FaInstagram } from 'react-icons/fa6';
 
 export default function Footer() {
   return (
@@ -21,10 +22,10 @@ export default function Footer() {
           Contact us
         </Col>
         <Col xs lg="1">
-          Facebook
+          <FaFacebook />
         </Col>
         <Col xs lg="1">
-          Instagram
+          <FaInstagram />
         </Col>
         <Col>
           <Image src={logo} alt="Roger" width="100" />

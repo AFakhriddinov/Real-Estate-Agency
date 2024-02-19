@@ -26,49 +26,49 @@ export default function HomePage() {
       </div>
       <Container id="mid-container">
         <Row className="content-row">
-          <Col>
+          <Col className="home-col">
             <a className="mid-a" href="/buy">
               <Card.Body
                 style={{
                   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${buy}`,
                 }}
-                className="card-body"
+                className="home-body"
               ></Card.Body>
               <span>BUY</span>
             </a>
           </Col>
 
-          <Col>
+          <Col className="home-col">
             <a className="mid-a" href="/team">
               <Card.Body
                 style={{
                   backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${team}`,
                 }}
-                className="card-body"
+                className="home-body"
               ></Card.Body>
               <span>TEAM</span>
             </a>
           </Col>
         </Row>
         <Row className="content-row2">
-          <Col>
+          <Col className="home-col">
             <a className="mid-a" href="/about">
               <Card.Body
                 style={{
                   backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${about}`,
                 }}
-                className="card-body"
+                className="home-body"
               ></Card.Body>
               <span>ABOUT US</span>
             </a>
           </Col>
-          <Col>
+          <Col className="home-col">
             <a className="mid-a" href="/contact">
               <Card.Body
                 style={{
                   backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${contact}`,
                 }}
-                className="card-body"
+                className="home-body"
               ></Card.Body>
               <span>CONTACT US</span>
             </a>
