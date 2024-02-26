@@ -19,7 +19,7 @@ function RecentSales() {
       <Row className="recentSales-row">
         <Col className="recentSales-col">
           <div className="recentSales-subcol">
-            <a href="#">
+            <a href="canterburyBroughtonStreet">
               <div className="sold-icon">
                 <div className="square-shape">
                   <p className="sold-text">SOLD</p>

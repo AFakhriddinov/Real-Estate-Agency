@@ -9,6 +9,7 @@ import Footer from './components/footer';
 import Layout from './components/layout';
 import RecentSales from './components/recentSales';
 import AboutUs from './components/aboutUs';
+import CanterburyBroughtonStreet from './components/recentSales/canterburyBroughtonStreet';
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
           <Route path="recentSales" element={<RecentSales />} />
           <Route path="team" element={<Team />} />
           <Route path="about" element={<AboutUs />} />
+          <Route
+            path="canterburyBroughtonStreet"
+            element={<CanterburyBroughtonStreet />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>

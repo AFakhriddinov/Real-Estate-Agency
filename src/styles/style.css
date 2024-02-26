@@ -101,7 +101,7 @@ span {
 }
 
 .square-shape {
-  background-color: blue;
+  background-color: rgb(2, 3, 129);
   color: white;
   width: 80px;
   height: 45px;
@@ -124,7 +124,7 @@ span {
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 23px solid blue;
+  border-top: 23px solid rgb(2, 3, 129);
 }
 
 .triangle-shape-edgeDown {
@@ -132,7 +132,7 @@ span {
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-bottom: 22px solid blue;
+  border-bottom: 22px solid rgb(2, 3, 129);
 }
 
 .recentSales-col {
@@ -194,4 +194,27 @@ span {
   margin-top: 40px;
   margin-left: 80px;
   margin-right: 80px;
+}
+
+.soldProperties-container {
+  padding-top: 120px;
+  width: 1000px;
+  margin: auto;
+}
+
+.soldProperties-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-links-a {
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border-left: thin solid black; */
+}
+
+.top-links {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
