@@ -246,4 +246,45 @@ span {
 
 .sold-h6-right {
   border-bottom: thin solid grey;
+  padding: 10px;
+}
+
+.sold-features li {
+  margin-left: -13px;
+}
+
+.sold-button-div {
+  border-bottom: thin solid grey;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sold-buttons {
+  padding: 10px;
+  background-color: rgb(2, 3, 129);
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.buttons-container {
+  padding-top: 70px;
+}
+
+.agents-container {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.agents-container-sub {
+  display: flex;
+  padding-right: 120px;
+}
+
+.agent-img {
+  height: 120px;
+  width: 170px;
+  padding-right: 20px;
 }
