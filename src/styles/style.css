@@ -288,3 +288,16 @@ span {
   width: 170px;
   padding-right: 20px;
 }
+
+#contactusBg {
+  height: 400px;
+}
+
+#contactUs-heading {
+  text-align: center;
+  margin-top: -200px;
+  color: white;
+}
+#form {
+  margin-top: 200px;
+}

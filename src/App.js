@@ -9,6 +9,7 @@ import Footer from './components/footer';
 import Layout from './components/layout';
 import RecentSales from './components/recentSales';
 import AboutUs from './components/aboutUs';
+import ContactUs from './components/contactUs';
 import CanterburyBroughtonStreet from './components/recentSales/canterburyBroughtonStreet';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
             path="canterburyBroughtonStreet"
             element={<CanterburyBroughtonStreet />}
           />
+          <Route path="contact" element={<ContactUs />} />
         </Route>
       </Routes>
     </BrowserRouter>
