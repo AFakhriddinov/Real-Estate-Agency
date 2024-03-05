@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigation from './navbar';
 import Card from 'react-bootstrap/Card';
-import buy from './images/Buy2.jpg';
-import team from './images/team2.jpg';
-import about from './images/about2.jpg';
-import contact from './images/contact2.jpg';
+import buy from './images/image1.jpeg';
+import team from './images/image2.jpg';
+import about from './images/image3.jpg';
+import contact from './images/image4.webp';
 
 export default function HomePage() {
   return (
@@ -27,7 +27,7 @@ export default function HomePage() {
       <Container id="mid-container">
         <Row className="content-row">
           <Col className="home-col">
-            <a className="mid-a" href="/buy">
+            <a className="mid-a" href="/recentSales">
               <Card.Body
                 style={{
                   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${buy}`,

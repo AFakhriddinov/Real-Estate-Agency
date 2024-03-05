@@ -3,14 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
-import logo from './images/logo.png';
+import logo from './images/logo222.png';
 
 export default function Navigation() {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="/">
-          <Image src={logo} alt="Roger" width="80" />
+          <Image src={logo} alt="Roger" width="100" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
