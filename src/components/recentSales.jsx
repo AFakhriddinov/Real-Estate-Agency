@@ -49,7 +49,7 @@ function RecentSales() {
         </Col>
         <Col className="recentSales-col">
           <div className="recentSales-subcol">
-            <a href="#">
+            <a href="/blacktownIrelandSt">
               <div className="sold-icon">
                 <div className="square-shape">
                   <p className="sold-text">SOLD</p>

@@ -11,6 +11,7 @@ import RecentSales from './components/recentSales';
 import AboutUs from './components/aboutUs';
 import ContactUs from './components/contactUs';
 import CanterburyBroughtonStreet from './components/recentSales/canterburyBroughtonStreet';
+import BlacktownIrelandSt from './components/recentSales/blacktownIrelandSt';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
             path="canterburyBroughtonStreet"
             element={<CanterburyBroughtonStreet />}
           />
+          <Route path="blacktownIrelandSt" element={<BlacktownIrelandSt />} />
           <Route path="contact" element={<ContactUs />} />
         </Route>
       </Routes>

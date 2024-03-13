@@ -3,15 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FaFacebook, FaTwitter } from 'react-icons/fa6';
-import photo1 from '../images/cantebury sale.jpg';
-import photo2 from '../images/canterbury2.jpg';
-import photo3 from '../images/canterbury3.jpg';
+import photo1 from '../images/blacktownIreland1.jpg';
+import photo2 from '../images/blacktownIreland2.jpg';
+import photo3 from '../images/blacktownIreland3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBed, faBath, faCar } from '@fortawesome/free-solid-svg-icons';
 import agentPhoto from '../images/Andy.avif';
 import logo from '../images/logo2.png';
 
-export default function CanterburyBroughtonStreet() {
+export default function BlacktownIrelandSt() {
   return (
     <div className="soldProperties-container">
       <div className="soldProperties-heading">
@@ -48,39 +48,30 @@ export default function CanterburyBroughtonStreet() {
 
       <div className="soldProperties-heading ">
         <div className="left-container">
-          <FontAwesomeIcon icon={faBed} /> 2
-          <FontAwesomeIcon className="font" icon={faBath} /> 1
+          <FontAwesomeIcon icon={faBed} /> 4
+          <FontAwesomeIcon className="font" icon={faBath} /> 2
+          <FontAwesomeIcon className="font" icon={faCar} /> 3
           <h6 className="sold-h6">Sold by Andy Gheewalla 0426992786</h6>
           <p className="sold-p">
-            A light filled haven of undeniable style and desirability, this easy
-            access first floor apartment enjoys a premier setting at the rear of
-            this building. Providing an extraordinarily tranquil retreat right
-            in heart of Canterbury, this home offers a superb lifestyle enhanced
-            by beautifully interiors and views. Both bedrooms are generous with
-            built in robes, the kitchen and bathroom are both are in immaculate
-            condition. Security intercom upon entry and a single Lockup Garages
-            is on title and accessed with security gated entry. Directly at your
-            door step are all the boutique shops, cafes, 2 mins walk to
-            Canterbury station and Bus Stop, local parks
+            Rosewhite presents this stylish home with a large block of land in a
+            tranquil location. You will be captivated from the moment you enter
+            the stunning Tiles hall by the size and space of this immaculate
+            open plan home – leading you into manicured garden with built in BBQ
+            area. Configure this home to suit your style, maximise potential to
+            meet your needs. Added WOW!! is with Granny Flat.
           </p>
           <br />
           <ul className="sold-features">
-            <li>Secure building with lift access</li>
+            <li>Marble floor plan with spacious living family lounge</li>
+            <li>Four good sized bedrooms is fitted</li>
+            <li> Generous sized 3 bedrooms with built-in robes</li>
+            <li>Separate kitchen with Meal areas and Pantry room</li>
+            <li> Separate dining area</li>
+            <li>Modern Family Bathroom with added Bonus of second toilet</li>
+            <li>Double Size of carport,</li>
+            <li>Private backyard and entertaining area for children and BBQ</li>
             <li>
-              Beautifully maintained Art Deco building with wood panelled entry
-              foyer and terrazzo floors
-            </li>
-            <li> Smart kitchen with stainless steel appliances</li>
-            <li>Marble tiled bathroom</li>
-            <li>Ceiling fans</li>
-            <li>Large sash windows</li>
-            <li>
-              Common rooftop with entertaining area overlooking the bridge,
-              opera house and harbour
-            </li>
-            <li>Laundries and drying areas on common rooftop</li>
-            <li>
-              Close to Macleay Street shopping, cafes, bars and restaurants
+              Entertainment area ready for family and friends all year around
             </li>
             <li>Close to public transport, the CBD and harbour foreshores</li>
           </ul>
@@ -141,7 +132,7 @@ export default function CanterburyBroughtonStreet() {
           </div>
         </div>
         <div className="top-links right-container">
-          <h5>12/12 Ward Avenue, Potts Point NSW 2011</h5>
+          <h5>53 Irelands Road, Blacktown, NSW 2148</h5>
           <h6 className="sold-h6-right">SOLD</h6>
           <h6 className="sold-h6-right">$ 520,000</h6>
           <div className="buttons-container">
