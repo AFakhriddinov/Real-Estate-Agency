@@ -78,7 +78,7 @@ function RecentSales() {
         </Col>
         <Col className="recentSales-col">
           <div className="recentSales-subcol">
-            <a href="#">
+            <a href="/wentworthvilleLaneSt">
               <div className="sold-icon">
                 <div className="square-shape">
                   <p className="sold-text">SOLD</p>
@@ -109,7 +109,7 @@ function RecentSales() {
       <Row className="recentSales-row">
         <Col className="recentSales-col">
           <div className="recentSales-subcol">
-            <a href="#">
+            <a href="/wentworthvilleCraddockSt">
               <div className="sold-icon">
                 <div className="square-shape">
                   <p className="sold-text">SOLD</p>
@@ -142,36 +142,7 @@ function RecentSales() {
         </Col>
         <Col className="recentSales-col">
           <div className="recentSales-subcol">
-            <a href="#">
-              <div className="sold-icon">
-                <div className="square-shape">
-                  <p className="sold-text">SOLD</p>
-                </div>
-                <div className="triangle-shape">
-                  <div className="triangle-shape-edgeUp"></div>
-                  <div className="triangle-shape-edgeDown"></div>
-                </div>
-              </div>
-              <img className="recentSales-img" src={BlacktownSale2} />
-            </a>
-            <div className="property-location">
-              <h4>Blacktown</h4>
-              <h6>33 Sparkle Avenue</h6>
-              <div className="sale-icons">
-                <FontAwesomeIcon icon={faBed} /> 2
-                <FontAwesomeIcon className="font" icon={faBath} /> 1
-                <FontAwesomeIcon className="font" icon={faCar} /> 1
-              </div>
-              <div className="property-price">
-                <p className="element-left">Sold</p>
-                <p className="element-right">$ 955,000</p>
-              </div>
-            </div>
-          </div>
-        </Col>
-        <Col className="recentSales-col">
-          <div className="recentSales-subcol">
-            <a href="#">
+            <a href="/blacktownSparkleAv">
               <div className="sold-icon">
                 <div className="square-shape">
                   <p className="sold-text">SOLD</p>

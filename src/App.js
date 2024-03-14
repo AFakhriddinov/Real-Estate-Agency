@@ -12,6 +12,9 @@ import AboutUs from './components/aboutUs';
 import ContactUs from './components/contactUs';
 import CanterburyBroughtonStreet from './components/recentSales/canterburyBroughtonStreet';
 import BlacktownIrelandSt from './components/recentSales/blacktownIrelandSt';
+import WentworthvilleLaneSt from './components/recentSales/wentworthvilleLaneSt';
+import BlacktownSparkleAv from './components/recentSales/blacktownSparkleAv';
+import WentworthvilleCraddockSt from './components/recentSales/wentworthvilleCraddockSt';
 
 export default function App() {
   return (
@@ -27,6 +30,15 @@ export default function App() {
             element={<CanterburyBroughtonStreet />}
           />
           <Route path="blacktownIrelandSt" element={<BlacktownIrelandSt />} />
+          <Route
+            path="wentworthvilleLaneSt"
+            element={<WentworthvilleLaneSt />}
+          />
+          <Route path="blacktownSparkleAv" element={<BlacktownSparkleAv />} />
+          <Route
+            path="wentworthvilleCraddockSt"
+            element={<WentworthvilleCraddockSt />}
+          />
           <Route path="contact" element={<ContactUs />} />
         </Route>
       </Routes>
