@@ -18,7 +18,7 @@ export default function HomePage() {
           width="1380"
           height="540"
           class="embed-responsive-item"
-          src="https://www.youtube.com/embed/FNpQvPStY8E?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/4jnzf1yj48M?autoplay=1&mute=1"
           name="youtube embed"
           allow="autoplay; encrypted-media"
           allowfullscreen

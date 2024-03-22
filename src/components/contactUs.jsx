@@ -16,34 +16,37 @@ export default function ContactUs() {
       <h2 id="contactUs-heading">Contact us</h2>
 
       <Form id="form">
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
+        <h3 className="contact-h3">Roger Real Estate</h3>
+        <h6 className="contact-h6">
+          101-103 Macleay Street Potts Point NSW 2011 Australia
+        </h6>
+        <h6>Tel : 61 431400087</h6>
+        <h6 className="contact-h66">Fax : 61 431400087</h6>
+        <Form.Group className="mb-3 form-div" controlId="formBasicEmail">
+          <Form.Label>First Name</Form.Label>
+          <Form.Control className="input" type="text" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+        <Form.Group className="mb-3 form-div" controlId="formBasicPassword">
+          <Form.Label>Last Name</Form.Label>
+          <Form.Control type="text" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
+        <Form.Group className="mb-3 form-div" controlId="formBasicPassword">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+        <Form.Group className="mb-3 form-div" controlId="formBasicPassword">
+          <Form.Label>Home Number</Form.Label>
+          <Form.Control type="text" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+        <Form.Group className="mb-3 form-div" controlId="formBasicPassword">
+          <Form.Label>Mobile Number</Form.Label>
+          <Form.Control type="text" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+        <Form.Group className="mb-3 form-div" controlId="formBasicPassword">
+          <Form.Label>Comments</Form.Label>
+          <Form.Control type="textarea" />
         </Form.Group>
-        v
-        <Button variant="primary" type="submit">
+        <Button className="form-button" variant="primary" type="submit">
           Submit
         </Button>
       </Form>

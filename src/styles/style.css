@@ -299,8 +299,40 @@ span {
   margin-top: -200px;
   color: white;
 }
-#form {
+
+.contact-h3 {
   margin-top: 200px;
+}
+
+.contact-h6 {
+  width: 200px;
+}
+
+.contact-h66 {
+  margin-bottom: 30px;
+}
+
+#form {
+  width: 900px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-div {
+  display: flex;
+}
+
+.form-label {
+  margin-right: 200px;
+  width: 150px;
+}
+.input {
+  width: 400px;
+}
+
+.form-button {
+  margin-left: 300px;
 }
 
 .social-url {
