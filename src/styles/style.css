@@ -1,0 +1,310 @@
+.navbar {
+  background-color: rgb(2, 3, 129);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#mid-container {
+  margin-top: 30px;
+  height: 800px;
+}
+
+.content-row {
+  margin: 20px;
+}
+
+.content-row2 {
+  padding-top: 350px;
+}
+
+.home-col {
+  margin: 20px;
+}
+
+.mid-a {
+  position: relative;
+  text-decoration: none;
+}
+
+.home-body {
+  z-index: 3;
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  filter: opacity(150%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+}
+
+.home-body:hover {
+  transform: scale(1.1);
+}
+
+span {
+  z-index: 3;
+  position: absolute;
+  top: 155px;
+  left: 160px;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+  background-color: rgb(6, 6, 141);
+  color: white;
+  padding: 40px;
+}
+
+.footer-row {
+  margin-left: 360px;
+}
+
+.copyright {
+  border: thin solid black;
+  text-align: center;
+}
+
+#recent-sales-div {
+  margin-top: 100px;
+  width: 85%;
+}
+
+.recentSales-row {
+  padding-bottom: 485px;
+}
+
+.recentSales-col {
+  justify-content: center;
+}
+
+.recentSales-h1 {
+  font-family: Times New Roman;
+  padding: 30px;
+}
+
+#team-div {
+  margin-top: 100px;
+}
+
+.sold-icon {
+  display: flex;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 10;
+}
+
+.square-shape {
+  background-color: rgb(2, 3, 129);
+  color: white;
+  width: 80px;
+  height: 45px;
+  position: relative;
+}
+
+.sold-text {
+  margin: 0;
+  position: absolute;
+  top: 24%;
+  left: 24%;
+}
+
+.triangle-shape {
+  margin-left: -40px;
+}
+
+.triangle-shape-edgeUp {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 23px solid rgb(2, 3, 129);
+}
+
+.triangle-shape-edgeDown {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 22px solid rgb(2, 3, 129);
+}
+
+.recentSales-col {
+  position: relative;
+}
+
+.recentSales-subcol {
+  position: absolute;
+}
+
+.recentSales-img {
+  width: 100%;
+  height: 270px;
+}
+
+.property-location {
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 100%;
+  background-color: rgb(2, 3, 129);
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.sale-icons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facebook-icon {
+  fill: green !important;
+  width: 10px;
+}
+
+.font {
+  border-left: thin solid white;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.property-price {
+  display: flex;
+}
+
+.element-left {
+  width: 76%;
+}
+
+.element-right {
+  flex-grow: 1;
+}
+
+#aboutus-img {
+  width: 1340;
+}
+
+.aboutus-p {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.soldProperties-container {
+  padding-top: 120px;
+  width: 1000px;
+  margin: auto;
+}
+
+.soldProperties-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-links-a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.top-links {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.carousel {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.carousel-images {
+  width: 1000px;
+}
+
+.left-container {
+  width: 55%;
+}
+
+.sold-p {
+  font-size: 14px;
+}
+
+.right-container {
+  width: 30%;
+  text-align: right;
+}
+
+.sold-h6 {
+  padding-top: 40px;
+}
+
+.sold-h6-right {
+  border-bottom: thin solid grey;
+  padding: 10px;
+}
+
+.sold-features li {
+  margin-left: -13px;
+}
+
+.sold-button-div {
+  border-bottom: thin solid grey;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sold-buttons {
+  padding: 10px;
+  background-color: rgb(2, 3, 129);
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.buttons-container {
+  padding-top: 70px;
+}
+
+.agents-container {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.agents-container-sub {
+  display: flex;
+  padding-right: 120px;
+}
+
+.agent-img {
+  height: 120px;
+  width: 170px;
+  padding-right: 20px;
+}
+
+#contactusBg {
+  height: 400px;
+}
+
+#contactUs-heading {
+  text-align: center;
+  margin-top: -200px;
+  color: white;
+}
+#form {
+  margin-top: 200px;
+}
+
+.social-url {
+  background-color: rgb(2, 3, 129);
+  color: white;
+  text-decoration: none;
+}
